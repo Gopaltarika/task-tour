@@ -12,13 +12,16 @@ const Tour = () => {
     function view() {
         alert("thank you so much for yes")
     }
+    function koina() {
+        alert(`😒😒😒😒`)
+    }
     return (
         <div>
-            <div>
-                <h2 className=' text-[40px] font-bold'>chle ghumne</h2>
+            <div className='max-w-[1140px] mx-auto px-3 '>
+                <h2 className=' text-[40px] font-bold'>chle ghumne :-</h2>
                 <div className='flex gap-5'>
                     <button className='px-4 py-3 bg-[#02cdcf] rounded-2xl text-white text-[20px] font-bold' onClick={view}>yes</button>
-                    <button className='px-4 py-3 bg-[#02cdcf] rounded-2xl text-white text-[20px] font-bold relative' onMouseEnter={move}>no</button>
+                    <button className='px-4 py-3 bg-red-600 rounded-2xl text-white text-[20px] font-bold relative' onMouseEnter={move} onClick={koina}>no</button>
                 </div>
             </div>
         </div>
